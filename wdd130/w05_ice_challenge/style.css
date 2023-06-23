@@ -1,0 +1,48 @@
+body{
+    background-color: #737373;
+    padding: 0;
+    margin: 0;
+}
+
+#hero-img{
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.icons{
+    border: 22px solid #444;
+    border-radius: 100%;
+    color: #00a;
+    max-width: 64.5%;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin: 69px auto;
+}
+.icons2{
+    border: 22px solid #444;
+    border-radius: 100%;
+    color: #00a;
+    max-width: 64.5%;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin: 69px auto auto 185px;
+}
+.icons3{
+    border: 22px solid #444;
+    border-radius: 100%;
+    color: #00a;
+    max-width: 64.5%;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin: 69px 185px auto auto;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

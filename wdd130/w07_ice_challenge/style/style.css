@@ -1,0 +1,73 @@
+body{
+    background-color: #000000;
+}
+#grid-container{
+    display: inline-block;
+    position: relative;
+    margin: 150px auto;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 200px 300px;
+    border-style: solid;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    font-family: Arial;
+    font-size: 30px;
+    color: gray;
+}
+h3{
+    font-family: Arial;
+    margin-top: 0;
+    color: gray;
+}
+#image{
+    grid-column: 1; 
+    float: left;
+    width:100%;
+    padding: 0px;
+}
+#close{
+    float: right;
+}
+#form{
+    grid-column: 2;
+    color: gray;
+}
+#sub{
+    background-color: #e3aa60;
+    color: white;
+    align-items: center;
+    align-content: center;
+    width: 200px;
+    height: 20%;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    align-content: center;
+    justify-content: center;
+} 
+section{
+    background-color: white;  
+    padding: auto;
+    overflow: hidden;  
+}
+#text{
+    text-align: center;
+}
+#email{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#name{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px;
+}
